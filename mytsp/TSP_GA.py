@@ -203,7 +203,7 @@ class TSP(object):
                 if j != r:
                     tsp.pop[j] = tsp.cross(tsp.pop[j], tsp.pop[r])
                     tsp.pop[j] = tsp.mutate(tsp.pop[j])
-            self.best_gen = self.EO(self.best_gen)
+            #self.best_gen = self.EO(self.best_gen)
             tsp.best_dist = tsp.gen_distance(self.best_gen)
 
     def load_Citys(self, file='china_main_citys.csv', delm=','):
