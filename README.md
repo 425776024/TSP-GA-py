@@ -6,5 +6,5 @@
 城市经纬度数据：mytsp/xx.csv文件<br/>
 DW.py：绘图类<br/>
 TSP_GA.py：主程序<br/>
+![image](Figure_1.png)
 
-<img src="Figure_1.png"/>
